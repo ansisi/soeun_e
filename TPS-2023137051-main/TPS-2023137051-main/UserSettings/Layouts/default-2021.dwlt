@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 51
+  controlID: 19
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 27
+  controlID: 112
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 28
+  controlID: 131
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,8 +323,8 @@ MonoBehaviour:
     y: 460
     width: 1022
     height: 487
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -412,9 +412,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1419
+    x: 1568
     y: 73
-    width: 500
+    width: 351
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -535,9 +535,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f608f6ff
-      m_LastClickedID: -653066
-      m_ExpandedIDs: 14c0f5ffb84ff6ffd2c5ffff40c8ffff3a9500004a95000062950000909500009c950000a8950000ea970000
+      m_SelectedIDs: 2cf9ffff
+      m_LastClickedID: -1748
+      m_ExpandedIDs: 0afbffff88590000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -644,15 +644,14 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/02.Scripts
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Administrator\Downloads\TPS-2023137051-main\TPS-2023137051-main
+  m_LastProjectPath: C:\Users\Administrator\Downloads\soeun_e-main\soeun_e-main\TPS-2023137051-main\TPS-2023137051-main
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -684,10 +683,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 32}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000c8940000ea940000ec940000ee940000fe9400000295000084970000
+    m_ExpandedIDs: ffffffffd85a0000165d00003c5d0000405d00006a5d00009e5d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -817,7 +816,7 @@ MonoBehaviour:
       width: 1021
       height: 445
     m_Scale: {x: 1.1255087, y: 1.1255087}
-    m_Translation: {x: 510.5, y: 237.8877}
+    m_Translation: {x: 510.5, y: 237.88773}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -825,7 +824,7 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -453.5727
-      y: -211.36017
+      y: -211.36018
       width: 907.1454
       height: 395.3768
     m_MinimalGUI: 1
@@ -1095,7 +1094,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 18.002037, y: 66.4079, z: 71.25353}
+    m_Target: {x: -5.76, y: 0, z: 1.8299999}
     speed: 2
     m_Value: {x: 18.002037, y: 66.4079, z: 71.25353}
   m_RenderMode: 0
@@ -1144,11 +1143,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.111621514, y: -0.88837916, z: 0.31475246, w: 0.31504905}
+    m_Target: {x: -0.42191344, y: -0.30278555, z: 0.1519082, w: -0.84098476}
     speed: 2
-    m_Value: {x: 0.11162141, y: -0.8883783, z: 0.31475216, w: 0.31504875}
+    m_Value: {x: -0.11162141, y: 0.8883783, z: -0.31475216, w: -0.31504875}
   m_Size:
-    m_Target: 421.7757
+    m_Target: 6.324753
     speed: 2
     m_Value: 421.7757
   m_Ortho:

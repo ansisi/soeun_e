@@ -56,22 +56,23 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // 스코어 점수 출력
-        DisplayScore(0);
         // 몬스터 오브젝트 풀 생성
         CreateMonsterPool();
         // SpawnPointGroup 게임오브젝트의 Transform 컴포넌트 추출
-        Transform spawnPointGroup =
-        GameObject.Find("SpawnPointGroup")?.transform;
-        // SpawnPointGroup 하위에 있는 모든 차일드 게임오브젝트의
-       // Transform 컴포넌트 추출
-    foreach (Transform point in spawnPointGroup)
+        Transform spawnPointGroup = GameObject.Find("SpawnPointGroup")?.transform;
+        // SpawnPointGroup 하위에 있는 모든 차일드 게임오브젝트의 Transform 컴포넌트 추출
+        foreach (Transform point in spawnPointGroup)
         {
             points.Add(point);
         }
         // 일정한 시간 간격으로 함수를 호출
         InvokeRepeating("CreateMonster", 2.0f, createTime);
+        totScore = PlayerPrefs.GetInt("TOT_SCORE", 0);
+        // 스코어 점수 출력
+        DisplayScore(0);
     }
+
+   
     void CreateMonster()
     {
         // 몬스터의 불규칙한 생성 위치 산출
@@ -106,6 +107,8 @@ public class GameManager : MonoBehaviour
     {
         totScore += score;
         scoreText.text = $"<color=#00ff00>SCORE :</color> <color=#ff0000>{totScore:#,##0}</color>";
+        // 스코어 저장
+        PlayerPrefs.SetInt("TOT_SCORE", totScore);
     }
     // 오브젝트 풀에서 사용 가능한 몬스터를 추출해 반환하는 함수
     public GameObject GetMonsterInPool()
